@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .img{
+            display: block;
+            margin: auto;
+            margin-top: 50px;
+
+        }
+        .container{
+            display: flex;
+            gap: 50px;
+            margin-top: 30px;
+            margin-left: 30%;
+        }
+
+        .left{
+            text-align: center;
+        }
+
+        .right{
+            text-align: left;
+        }
+        .form label {
+            display: inline-block;
+            width: 120px;
+            vertical-align: top;
+        }
+        
+    
+    </style>
+
+</head>
+<body>
+    <img class="img" src="sunbeam_image.jpg">
+    <h2 style="text-align: center;">Sunbeam Registration Form</h2>
+    <div class="container">
+        <div class="left">
+            <iframe src="https://www.youtube.com/embed/02q9aAVv1NI"></iframe>
+        </div>
+        <div class="right">
+            <form class="form">
+                <label>Name : </label>
+                <input type="text"><br><br>
+
+                <label>BirthDate : </label>
+                <input type="date"><br><br>
+
+                <label>Email : </label>
+                <input type="text"><br><br>
+
+                <label>Password : </label>
+                <input type="text"><br><br>
+
+                <label>Address : </label>
+                <textarea rows="2" cols="30"></textarea><br><br>
+
+                <label>Gender : </label>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female <br><br>
+
+                <label>Upload Photo : </label>
+                <input type="file"><br><br>
+
+                <label>Select your Course : </label>
+                <select>
+                    <option>CS</option>
+                    <option>AIDS</option>
+                    <option>AIML</option>
+                </select><br><br>
+
+                <label>Skill Set : </label>
+                <input type="checkbox"> Java
+                <input type="checkbox"> CPP
+                <input type="checkbox"> OS <br><br>
+
+                <button type="submit">Register</button>
+                <button type="reset">Clear</button>
+                
+            </form>
+
+        </div>
+    </div>
+
+
+    
+    
+</body>
+</html>
